@@ -10,7 +10,20 @@ body {
     background-color: #ffffff;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
 
+ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}
 
 /* HEADER */
 li,
@@ -20,15 +33,16 @@ a {
     text-decoration: none;
 }
 
+
+
 header,
 ul {
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 24px 0;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
-
-
 
 .studio {
     font-family: "Raleway", sans-serif;
@@ -48,11 +62,14 @@ ul {
     text-transform: uppercase;
     line-height: 1.17;
     color: #4d5ae5;
+    padding-left: 156px;
+    padding-right: 76px;
 }
 
 /* NAVIGATION */
 
-.link {
+.link,
+.address {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -61,7 +78,16 @@ ul {
     color: #2e2f42;
 }
 
-.link:hover, .link:focus {
+.list:not(:last-child) {
+    padding-right: 40px;
+}
+
+.menu-list {
+    margin-right: 332px 
+
+}
+.link:hover, 
+.link:focus {
     color: #404bbf;
 }
 
@@ -97,6 +123,7 @@ ul {
 
 .main {
     background-color: #2e2f42;
+
 }
 .main-title {
     font-family: "Roboto", sans-serif;
@@ -106,6 +133,8 @@ ul {
     letter-spacing: 0.02em;
     color: #ffffff;
     text-align: center;
+    margin: 0;
+
 }
 
 /* BUTTON */
