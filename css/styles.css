@@ -10,13 +10,17 @@ body {
     background-color: #ffffff;
 }
 
-li, ul, a {
+
+
+/* HEADER */
+li,
+ul,
+a {
     list-style-type: none;
     text-decoration: none;
 }
 
-/* HEADER */
-
+header,
 ul {
     display: inline-flex;
     flex-direction: row;
