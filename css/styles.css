@@ -123,7 +123,9 @@ ul {
 
 .main {
     background-color: #2e2f42;
-
+    text-align: center;
+    padding-top: 188px;
+    padding-bottom: 292px;
 }
 .main-title {
     font-family: "Roboto", sans-serif;
@@ -132,9 +134,7 @@ ul {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
-    text-align: center;
-    margin: 0;
-
+    margin-bottom: 48px;
 }
 
 /* BUTTON */
@@ -147,7 +147,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #ffffff;
 background-color: #4d5ae5;
-text-align: center;
+padding: 16px 32px;
 }
 
 .button:hover, .button:focus {
