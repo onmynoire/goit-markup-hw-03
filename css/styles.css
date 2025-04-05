@@ -75,13 +75,12 @@ nav {
     gap: 40px;
 }
 
-.address {
+ul.address {
     display: flex;
     gap: 40px;
 }
 
-.address-list, 
-.menu-list {
+li.menu-list {
     padding: 24px 0;
 }
 
@@ -132,7 +131,7 @@ nav {
     background-color: #2e2f42;
     padding: 188px 0;
 }
-.main-title {
+h1.main-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
@@ -140,6 +139,8 @@ nav {
     letter-spacing: 0.02em;
     color: #ffffff;
     text-align: center;
+
+    max-width: 496px;
 }
 
 h1 {
@@ -188,8 +189,23 @@ background-color: #404bbf;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
+    margin-bottom: 8px;
 }
 
+.values-section {
+    padding: 120px 0;
+}
+
+ul.values-list {
+    display: flex;
+    gap: 24px;
+
+}
+
+li.values-list-item {
+width: calc((100%-72px) / 4);
+}
 /* TEAM */
 
 .team-section {
@@ -237,6 +253,8 @@ background-color: #404bbf;
 
 .bottom {
     background-color: #2e2f42;
+
+    padding: 100px 0;]
 }
 
 .logo-bottom {
@@ -247,6 +265,10 @@ background-color: #404bbf;
     text-transform: uppercase;
     line-height: 1.17;
     color: #4d5ae5;
+
+    display: inline-block;
+    margin-bottom: 16px;
+    
 }
 
 .studio-bottom {
@@ -266,4 +288,6 @@ background-color: #404bbf;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+
+    max-width: 264px;
 }
