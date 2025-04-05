@@ -185,6 +185,8 @@ overflow: hidden;
 clip: rect(0, 0, 0, 0);
 border: 0;
 white-space: nowrap;
+
+overflow: hidden;
 }
 
 .values-names {
@@ -293,8 +295,7 @@ width: calc((100%-72px) / 4);
 }
 
 .portfolio-list-item {
-width: calc((100% - 48px) / 3);
-
+width: calc((100% -48px) / 3);
 }
 
 .portfolio-box {
@@ -322,9 +323,7 @@ border-top: none;
     text-transform: uppercase;
     line-height: 1.17;
     color: #4d5ae5;
-}
 
-a.logo-bottom {
     display: inline-block;
     margin-bottom: 16px;
 }
