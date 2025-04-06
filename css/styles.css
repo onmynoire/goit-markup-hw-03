@@ -31,7 +31,9 @@ img {
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+}
 
+.header-container {
     display: flex;
 }
 
@@ -176,15 +178,16 @@ background-color: #404bbf;
 /* VALUES */
 
 .visually-hidden {
-position: absolute;
-width: 1px;
-height: 1px;
-padding: 0;
-margin: -1px;
-overflow: hidden;
-clip: rect(0, 0, 0, 0);
-border: 0;
-white-space: nowrap;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .values-names {
@@ -293,7 +296,7 @@ width: calc((100%-72px) / 4);
 }
 
 .portfolio-list-item {
-width: calc((100% -48px) / 3);
+width: calc((100% - 48px) / 3);
 }
 
 .portfolio-box {
